@@ -2,6 +2,7 @@ package com.trespsi.bi.araper;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Iterator;
 
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
@@ -15,7 +16,9 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
  *
  */
 public class App {
+	
 
+	
 	public static void main(String[] args) {
 		Workbook wb = null;
 		// Abrimos el archivo excel
@@ -50,4 +53,6 @@ public class App {
 			System.out.println();
 		}
 	}
+	
+
 }
